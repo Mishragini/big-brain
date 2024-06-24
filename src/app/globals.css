@@ -74,3 +74,26 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .customScrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+  
+  .customScrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .customScrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .customScrollbar::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+    border: 2px solid #f1f1f1;
+  }
+  
+  .customScrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
